@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F8F7FC">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="28dp">
+
+            <!-- ============================================= -->
+            <!-- SETTINGS ICON -->
+            <!-- ============================================= -->
+
+            <TextView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:gravity="center"
+                android:text="⚙"
+                android:textColor="#6A4BBC"
+                android:textSize="40sp"
+                android:background="#F0ECFA" />
+
+            <!-- ============================================= -->
+            <!-- TITLE -->
+            <!-- ============================================= -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="Settings"
+                android:textColor="#171717"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!-- ============================================= -->
+            <!-- COMING SOON -->
+            <!-- ============================================= -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Coming Soon"
+                android:textColor="#6A4BBC"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <!-- ============================================= -->
+            <!-- DESCRIPTION -->
+            <!-- ============================================= -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Therapist settings and account preferences will be available in a future update."
+                android:textColor="#757575"
+                android:textSize="15sp"
+                android:lineSpacingExtra="3dp" />
+
+            <!-- ============================================= -->
+            <!-- STATUS -->
+            <!-- ============================================= -->
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                app:cardBackgroundColor="#F5F2FC"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingTop="9dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="9dp"
+                    android:text="Feature in development"
+                    android:textColor="#6A4BBC"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

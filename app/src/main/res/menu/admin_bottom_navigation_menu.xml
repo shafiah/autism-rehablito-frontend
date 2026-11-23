@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/admin_nav_children"
+        android:icon="@drawable/ic_child"
+        android:title="Children" />
+
+    <item
+        android:id="@+id/admin_nav_schedule"
+        android:icon="@drawable/ic_calendar"
+        android:title="Schedule" />
+
+    <item
+        android:id="@+id/admin_nav_payments"
+        android:icon="@drawable/ic_payment"
+        android:title="Payments" />
+
+</menu>

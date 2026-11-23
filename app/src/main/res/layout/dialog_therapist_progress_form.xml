@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Session observations"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etProgressObservations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="What did you observe during the session?"
+            android:gravity="top|start"
+            android:minLines="2"
+            android:maxLines="4"
+            android:inputType="textCapSentences|textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress achieved"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress achieved (%)"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvProgressValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6750A4" />
+
+        <SeekBar
+            android:id="@+id/seekBarProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:contentDescription="Set therapy goal progress percentage" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goals"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etProgressGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Goals for the child"
+            android:gravity="top|start"
+            android:minLines="2"
+            android:maxLines="4"
+            android:inputType="textCapSentences|textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activities performed"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etProgressActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Activities completed in this session"
+            android:gravity="top|start"
+            android:minLines="2"
+            android:maxLines="4"
+            android:inputType="textCapSentences|textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional remarks"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etProgressRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Any additional remarks (optional)"
+            android:gravity="top|start"
+            android:minLines="2"
+            android:maxLines="4"
+            android:inputType="textCapSentences|textMultiLine" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@android:color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <ImageView android:layout_width="120dp" android:layout_height="120dp" android:layout_gravity="center" android:src="@mipmap/ic_launcher"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OTP Verification" android:textStyle="bold" android:textSize="24sp" android:layout_gravity="center" android:layout_marginTop="20dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter the 6 digit OTP" android:layout_gravity="center" android:layout_marginTop="8dp"/>
+        <EditText android:id="@+id/etOtp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="Enter OTP" android:inputType="number" android:maxLength="6"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnVerifyOtp" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="24dp" android:text="Verify OTP"/>
+        <TextView android:id="@+id/tvResendOtp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Resend OTP" android:textStyle="bold" android:layout_gravity="center" android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

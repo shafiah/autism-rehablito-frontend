@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:strokeColor="#E2E2E8"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Therapist Name -->
+        <TextView
+            android:id="@+id/tvAdminTherapistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Neha Sharma"
+            android:textColor="#222222"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Specialization -->
+        <TextView
+            android:id="@+id/tvAdminTherapistSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Occupational Therapy"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+        <!-- Phone -->
+        <TextView
+            android:id="@+id/tvAdminTherapistPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Phone: 9876543210"
+            android:textColor="#555555"
+            android:textSize="13sp" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/tvAdminTherapistEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Email: therapist@gmail.com"
+            android:textColor="#555555"
+            android:textSize="13sp" />
+
+        <!-- Branch -->
+        <TextView
+            android:id="@+id/tvAdminTherapistBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Branch: Patna"
+            android:textColor="#555555"
+            android:textSize="13sp" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvAdminTherapistStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Active"
+            android:textColor="#388E3C"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

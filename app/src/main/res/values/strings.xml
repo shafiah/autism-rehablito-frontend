@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">AutismCentre</string>
+    <string name="notifications">Notifications</string>
+    <string name="parent_profile_photo">Parent Profile Photo</string>
+    <string name="parent_name">Shafi Ahmad</string>
+    <string name="parent_email">parent@example.com</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="admin_open_drawer">Open Admin Navigation Drawer</string>
+    <string name="admin_close_drawer">Close Admin Navigation Drawer</string>
+
+    <string name="admin_homework_archive">Archive Homework</string>
+    <string name="admin_homework_restore">Restore Homework</string>
+    <string name="admin_homework_archived">Record: Archived</string>
+    <string name="admin_homework_active">Record: Active</string>
+    <string name="admin_homework_updated">Homework updated successfully</string>
+    <string name="admin_homework_archived_success">Homework archived successfully</string>
+    <string name="admin_homework_restored_success">Homework restored successfully</string>
+    <string name="admin_homework_archive_title">Archive Homework</string>
+    <string name="admin_homework_restore_title">Restore Homework</string>
+    <string name="admin_homework_archive_message">Are you sure you want to archive this homework record? The record will be preserved and can be restored later.</string>
+    <string name="admin_homework_restore_message">Do you want to restore this homework record?</string>
+    <string name="admin_active_records">Active Records</string>
+    <string name="admin_archived_records">Archived Records</string>
+
+    <string name="feedback_therapist_fallback">Therapist</string>
+    <string name="feedback_therapy_fallback">Therapy</string>
+    <string name="feedback_loading_children">Loading children...</string>
+    <string name="feedback_loading_therapists">Loading assigned therapists...</string>
+    <string name="feedback_no_active_child">No active child linked to your account.</string>
+    <string name="feedback_no_active_therapist">No active therapists assigned to this child.</string>
+    <string name="feedback_load_children_error">Unable to load children. Please try again.</string>
+    <string name="feedback_load_therapists_error">Unable to load assigned therapists.</string>
+    <string name="feedback_network_error">Network error while loading data.</string>
+
+    <string name="admin_homework_loading">Loading homework...</string>
+    <string name="admin_homework_no_records">No homework records found.</string>
+    <string name="admin_homework_no_matching">No matching homework found.</string>
+    <string name="admin_homework_unknown_child">Unknown Child</string>
+    <string name="admin_homework_not_assigned">Not assigned</string>
+    <string name="admin_homework_not_specified">Not specified</string>
+    <string name="admin_homework_details_title">Homework Details</string>
+    <string name="admin_homework_therapist_label">Therapist: %1$s</string>
+    <string name="admin_homework_branch_label">Branch: %1$s</string>
+    <string name="admin_homework_due_label">Due: %1$s</string>
+    <string name="admin_homework_http_error">Unable to load homework. HTTP %1$d</string>
+    <string name="admin_homework_branch_error">Unable to load branches.</string>
+    <string name="admin_homework_connection_error">Failed to load homework. Check your connection.</string>
+    <string name="admin_homework_id_missing">Homework ID is missing.</string>
+
+    <!-- Admin Communication -->
+    <string name="admin_communication_parent">Parent: Rahul Kumar</string>
+    <string name="admin_communication_child">Child: Aarav Kumar</string>
+    <string name="admin_communication_therapist">Therapist: Dr. Amit Kumar</string>
+    <string name="admin_communication_branch">Branch: Siwan</string>
+    <string name="admin_communication_last_message">Last Message: Sir, homework ke regarding...</string>
+    <string name="admin_communication_time">Today, 10:30 AM</string>
+    <string name="admin_parent_unread">Parent Unread: 0</string>
+    <string name="admin_therapist_unread">Therapist Unread: 0</string>
+
+    <string name="admin_conversation_parent">Parent: %1$s</string>
+    <string name="admin_conversation_child">Child: %1$s</string>
+    <string name="admin_conversation_therapist">Therapist: %1$s</string>
+    <string name="admin_conversation_branch">Branch: %1$s</string>
+
+    <string name="admin_message_parent_sender">Parent • %1$s</string>
+    <string name="admin_message_therapist_sender">Therapist • %1$s</string>
+    <string name="admin_message_admin_sender">Admin • Admin</string>
+    <string name="admin_message_just_now">Just now</string>
+
+    <string name="admin_message_sent">Message sent successfully</string>
+    <string name="admin_message_enter">Enter a message</string>
+    <string name="admin_communication_unread">Unread: %1$d</string>
+
+    <string name="admin_payment_child">Child: %1$s</string>
+    <string name="admin_payment_parent">Parent: %1$s</string>
+    <string name="admin_payment_therapist">Therapist: %1$s</string>
+    <string name="admin_payment_branch">Branch: %1$s</string>
+    <string name="admin_payment_therapy">Therapy: %1$s</string>
+
+    <string name="admin_receipt_number">Receipt No: %1$s</string>
+
+    <string name="admin_receipt_date">Date: %1$s</string>
+
+    <string name="admin_payment_actual_fee">Actual Fee: ₹%1$d</string>
+    <string name="admin_payment_discount">Discount: ₹%1$d</string>
+    <string name="admin_payment_final_payable">Final Payable: ₹%1$d</string>
+    <string name="admin_payment_received">Received: ₹%1$d</string>
+    <string name="admin_payment_due">Due: ₹%1$d</string>
+    <string name="admin_payment_date">Payment Date: %1$s</string>
+    <string name="admin_payment_method">Payment Method: %1$s</string>
+    <string name="admin_payment_transaction">Transaction ID: %1$s</string>
+    <string name="admin_payment_notes">Notes: %1$s</string>
+    <string name="admin_summary_actual_fee">
+
+<string name="admin_communication_parent">Parent: Rahul Kumar</string>
+<string name="admin_communication_child">Child: Aarav Kumar</string>
+<string name="admin_communication_therapist">Therapist: Dr. Amit Kumar</string>
+<string name="admin_communication_branch">Branch: Siwan</string>
+<string name="admin_communication_last_message">Last Message: Sir, homework ke regarding...</string>
+<string name="admin_communication_time">Today, 10:30 AM</string>
+<string name="admin_parent_unread">Parent Unread: 0</string>
+<string name="admin_therapist_unread">Therapist Unread: 0</string>
+```
+    Actual Fee: ₹%1$d
+</string>
+
+    <string name="admin_summary_discount">
+    Total Discount: ₹%1$d
+</string>
+
+    <string name="admin_summary_final_payable">
+    Final Payable: ₹%1$d
+</string>
+
+    <string name="admin_summary_received">
+    Total Received: ₹%1$d
+</string>
+
+    <string name="admin_summary_due">
+    Total Due: ₹%1$d
+</string>
+
+    <string name="admin_summary_paid_count">
+    Paid: %1$d
+</string>
+
+    <string name="admin_summary_partial_count">
+    Partial: %1$d
+</string>
+
+    <string name="admin_summary_pending_count">
+    Pending: %1$d
+</string>
+
+    <string name="admin_summary_overdue_count">
+    Overdue: %1$d
+</string>
+
+    <string name="admin_payment_fill_required">
+    Please fill all required payment fields.
+</string>
+    <string name="admin_payment_discount_invalid">Discount cannot be greater than actual fee.</string>
+
+    <string name="admin_payment_received_invalid">
+    Received amount cannot be greater than final payable amount.
+    </string>
+
+    <string name="admin_payment_saved">Payment saved successfully.</string>
+    <string name="view_child_details">View Child Details</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ================= HOME ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <!-- ================= CHILDREN ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_children"
+        android:icon="@drawable/ic_profile"
+        android:title="Assigned Children" />
+
+    <!-- ================= SCHEDULE ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_schedule"
+        android:icon="@drawable/ic_schedule"
+        android:title="Schedule" />
+
+    <!-- ================= REPORTS ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_reports"
+        android:icon="@drawable/ic_reports"
+        android:title="Therapy Reports" />
+
+    <!-- ================= HOMEWORK ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_homework"
+        android:icon="@drawable/ic_homework"
+        android:title="Homework" />
+
+    <!-- ================= PARENT CHAT ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_parent_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Parent Communication" />
+
+    <!-- ================= NOTIFICATIONS ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications" />
+
+    <!-- ================= SETTINGS ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+    <!-- ================= HELP & SUPPORT ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_help"
+        android:icon="@drawable/ic_help"
+        android:title="Help &amp; Support" />
+
+    <!-- ================= LOGOUT ================= -->
+
+    <item
+        android:id="@+id/therapist_nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+</menu>

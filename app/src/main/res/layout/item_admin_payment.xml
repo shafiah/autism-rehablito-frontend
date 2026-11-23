@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/parent_text_secondary"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeColor="#E0E0E0"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvAdminPaymentChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child: Aarav Kumar"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Parent: Rahul Kumar"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Therapist: Dr. Amit Kumar"
+            android:textColor="@color/parent_screen_background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Branch: Siwan"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentTherapy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Therapy: Occupational Therapy"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#E5E5E5" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentActualFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actual Fee: ₹8,000"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Discount: ₹2,000"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentFinalPayable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Final Payable: ₹6,000"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentReceived"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Received: ₹6,000"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentDue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Due: ₹0"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Payment Date: 21 Sep 2026"
+            android:textColor="@color/parent_text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvAdminPaymentStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/parent_navy"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="Paid"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

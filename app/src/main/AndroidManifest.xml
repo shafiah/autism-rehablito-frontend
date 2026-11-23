@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutismCentre"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.TherapistFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminCreateNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminNotificationDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminNotificationManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPaymentSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPaymentReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminAddPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPaymentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPaymentManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminParentConversationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminParentCommunicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminEditHomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminHomeworkDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminHomeworkManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminTherapyReportDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminTherapyReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminEditSessionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminAddSessionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminSessionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminScheduleSessionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminEditTherapistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminTherapistDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminAddTherapistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminTherapistManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminAssignTherapistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminEditChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminAddChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminChildDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminChildManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminHomeDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BaseAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistChildDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistChatConversationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistChildReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistSessionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistHelpSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistNotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistParentChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistHomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistChildrenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistHomeDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BaseTherapistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HelpSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DoctorAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ParentHomeDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BaseParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NewParentHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FeedbackHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FeedbackFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TherapistChatActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.TherapistListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeworkDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PaymentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ReportDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SessionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChildProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OTPVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/admin_nav_children"
+        android:icon="@drawable/ic_child"
+        android:title="Child Management" />
+
+    <item
+        android:id="@+id/admin_nav_therapists"
+        android:icon="@drawable/ic_person"
+        android:title="Therapist Management" />
+
+    <item
+        android:id="@+id/admin_nav_schedule"
+        android:icon="@drawable/ic_calendar"
+        android:title="Schedule and Sessions" />
+
+    <item
+        android:id="@+id/admin_nav_reports"
+        android:icon="@drawable/ic_reports"
+        android:title="Therapy Reports" />
+
+    <item
+        android:id="@+id/admin_nav_homework"
+        android:icon="@drawable/ic_assignment"
+        android:title="Homework Management" />
+
+    <item
+        android:id="@+id/admin_nav_parent_communication"
+        android:icon="@drawable/ic_chat"
+        android:title="Parent Communication" />
+
+    <item
+        android:id="@+id/admin_nav_payments"
+        android:icon="@drawable/ic_payment"
+        android:title="Payment Management" />
+
+    <item
+        android:id="@+id/admin_nav_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/admin_nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/admin_nav_help"
+        android:icon="@drawable/ic_help"
+        android:title="Help and Support" />
+
+    <item
+        android:id="@+id/admin_nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+</menu>

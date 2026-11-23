@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/parent_navy">
+
+    <!-- ===================================================== -->
+    <!-- THERAPIST PROFILE ICON -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgTherapistProfile"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="Therapist Profile"
+        android:src="@drawable/ic_profile"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside" />
+
+    <!-- ===================================================== -->
+    <!-- THERAPIST NAME -->
+    <!-- ===================================================== -->
+
+    <TextView
+        android:id="@+id/tvTherapistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Therapist"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- ===================================================== -->
+    <!-- THERAPIST ROLE -->
+    <!-- ===================================================== -->
+
+    <TextView
+        android:id="@+id/tvTherapistRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Therapist Account"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

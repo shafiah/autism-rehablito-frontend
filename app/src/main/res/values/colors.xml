@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ====================================== -->
+    <!-- EXISTING BRAND COLORS - PRESERVED -->
+    <!-- ====================================== -->
+
+    <color name="primary">#6F52B5</color>
+    <color name="primary_navy_blue">#061B49</color>
+    <color name="primary_dark">#5B4296</color>
+    <color name="primary_light">#8A70CC</color>
+    <color name="card_border">#E6E0F5</color>
+
+    <!-- ====================================== -->
+    <!-- EXISTING BACKGROUND COLORS -->
+    <!-- ====================================== -->
+
+    <color name="screen_background">#FFFFFF</color>
+    <color name="card_background">#F5ECFA</color>
+
+    <!-- ====================================== -->
+    <!-- EXISTING TEXT COLORS -->
+    <!-- ====================================== -->
+
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- ====================================== -->
+    <!-- EXISTING STATUS COLORS -->
+    <!-- ====================================== -->
+
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#D32F2F</color>
+
+    <!-- ====================================== -->
+    <!-- EXISTING PROGRESS COLORS -->
+    <!-- ====================================== -->
+
+    <color name="progress_active">#6F52B5</color>
+    <color name="progress_background">#C9C2D1</color>
+
+    <!-- ====================================== -->
+    <!-- EXISTING DIVIDER / BORDER COLORS -->
+    <!-- ====================================== -->
+
+    <color name="divider">#E5E5E5</color>
+    <color name="card_stroke">#E3D7EA</color>
+
+
+    <!-- ====================================== -->
+    <!-- PARENT MODULE - NEW COLOR PALETTE -->
+    <!-- ====================================== -->
+
+    <!-- Brand -->
+    <color name="parent_navy">#061B49</color>
+    <color name="parent_blue">#0055A0</color>
+    <color name="parent_green">#3D8A3A</color>
+    <color name="parent_green_light">#50A873</color>
+    <color name="parent_maroon">#642632</color>
+
+    <!-- Background -->
+    <color name="parent_screen_background">#F3F6FC</color>
+    <color name="parent_card_background">#FFFFFF</color>
+
+    <!-- Card Border -->
+    <color name="parent_card_border">#DCE4F0</color>
+
+    <!-- Text -->
+    <color name="parent_text_primary">#061B49</color>
+    <color name="parent_text_body">#263445</color>
+    <color name="parent_text_secondary">#64748B</color>
+    <color name="parent_text_white">#FFFFFF</color>
+    <color name="parent_text_disabled">#94A3B8</color>
+
+    <!-- Buttons -->
+    <color name="parent_button_primary">#0055A0</color>
+    <color name="parent_button_secondary">#3D8A3A</color>
+
+    <!-- Progress -->
+    <color name="parent_progress_active">#0055A0</color>
+    <color name="parent_progress_secondary">#3D8A3A</color>
+    <color name="parent_progress_background">#E2E8F0</color>
+
+    <!-- Divider / Accent -->
+    <color name="parent_divider">#E2E8F0</color>
+    <color name="parent_accent_maroon">#642632</color>
+
+</resources>
